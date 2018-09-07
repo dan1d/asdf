@@ -1,28 +1,30 @@
+@import '~normalize.css/normalize.css';
+@import '~reset-css/reset.css';
+@import '~flexboxgrid/css/flexboxgrid.css';
+
+body, html, #root {
+  height: 100%;
+}
+
+body {    
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
 .App {
   text-align: center;
+  height: 100%; 
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.App-bg { 
+  background-image: url(./assets/images/summer.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.react-tabs {
+  width: 50%;
+  margin-top: 5%;
+  background-color: white;
 }
