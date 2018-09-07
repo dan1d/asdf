@@ -14,8 +14,11 @@ class Tweets extends Component {
     while (tweets.length > 0)
         arrays.push(tweets.splice(0, size));
     return arrays.map(array => { 
-      return <div className="row">
-          {array.map(tweet => <Tweet tweet={tweet} key={tweet.id} />)}
+      return <div>
+          <img src="./assets/images/summer.png" />
+          <div>
+            {array.map(tweet => <Tweet tweet={tweet} key={tweet.id} />)}
+          </div>
         </div>
       })
   }

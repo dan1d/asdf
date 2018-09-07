@@ -5,7 +5,7 @@ class Tweet extends Component {
   render() {
     const { tweet } = this.props;
     return (
-      <div className="col-xs">
+      <div>
         <header>
           <h4>{tweet.author.handle}</h4>
           <img src={tweet.author.image} />

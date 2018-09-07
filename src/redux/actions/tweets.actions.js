@@ -10,7 +10,7 @@ export function doFetchTweets() {
   };
 
   function success(data) {
-    return { type: ACTIONS.FETCHING_TWITS_SUCCESS, payload: data.tweets };
+    return { type: ACTIONS.FETCHING_TWITS_SUCCESS, payload: data.tweets.slice(0, 20) };
   }
 
   function error(err) {

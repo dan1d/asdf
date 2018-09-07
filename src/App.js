@@ -8,32 +8,18 @@ import Tourdates from './components/tourdates';
 
 import { Provider } from 'react-redux'
 import { configureStore } from './redux'
+import {Carousel} from '3d-react-carousal';
 
 const store = configureStore()
 
 class App extends Component {
   render() {
+    const slides = [<Tweets key="tweets"/>, <Photos key="photos" />, <Tourdates key="tourdates" />];
     return (
       <Provider store={store}>
         <div className="App App-bg">
-          <div className="row center-xs">
-            <Tabs>
-              <TabList className="row">
-                <Tab className="col-xs">Tweets #Dreamforce</Tab>
-                <Tab className="col-xs">Photos</Tab>
-                <Tab className="col-xs">Tourdates</Tab>
-              </TabList>
-
-              <TabPanel className="box">
-                <Tweets />
-              </TabPanel>
-              <TabPanel className="box">
-                <Photos />
-              </TabPanel>
-              <TabPanel className="box">
-                <Tourdates />
-              </TabPanel>
-            </Tabs>
+          <div>
+            <Carousel slides={slides}/>
           </div>
         </div>
       </Provider>

@@ -22,9 +22,3 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-.react-tabs {
-  width: 50%;
-  margin-top: 5%;
-  background-color: white;
-}
