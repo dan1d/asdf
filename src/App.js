@@ -18,8 +18,20 @@ class App extends Component {
     return (
       <Provider store={store}>
         <div className="App App-bg">
-          <div>
-            <Carousel slides={slides}/>
+          <div className="col-xs-12" >
+            <div className="row">
+              <div className="col-xs-8">
+                <div>
+                  <Carousel slides={slides}/>
+                </div>
+              </div>
+
+              <div className="col-xs-4">
+                <div className="right-side">
+                  <h1>Metallica</h1>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </Provider>
