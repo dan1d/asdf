@@ -16,52 +16,52 @@ export default Photos;
 const PHOTO_SET = [
   {
     src: MetallicaLarge,
-    width: 3,
-    height: 2
+    width: 1,
+    height: 1
   },
   {
     src: Metallica,
-    width: 2,
+    width: 1,
     height: 1
   },
   {
     src: TourHero,
-    width: 4,
-    height: 2
+    width: 1,
+    height: 1
   },
   {
     src: MetallicaLarge,
-    width: 3,
-    height: 2
+    width: 1,
+    height: 1
   },
   {
     src: Metallica,
-    width: 2,
+    width: 1,
     height: 1
   },
   {
     src: TourHero,
-    width: 4,
-    height: 2
+    width: 1,
+    height: 1
   },
   {
     src: MetallicaLarge,
-    width: 3,
-    height: 2
+    width: 1,
+    height: 1
   },
   {
     src: Metallica,
-    width: 2,
+    width: 1,
     height: 1
   },
   // {
   //   src: TourHero,
-  //   width: 4,
-  //   height: 2
+    // width: 1,
+    // height: 1
   // },
   // {
   //   src: MetallicaLarge,
-  //   width: 3,
-  //   height: 2
+    // width: 3,
+    // height: 2
   // },
 ];
